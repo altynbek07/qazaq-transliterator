@@ -8,4 +8,4 @@ install:
   - composer install
 
 script:
-  - ./vendor/bin/phpunit --verbose $PHPUNIT_FLAGS
+  - ./vendor/bin/phpunit
