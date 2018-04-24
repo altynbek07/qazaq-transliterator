@@ -7,4 +7,5 @@ php:
 install:
   - composer install
 
-script: phpunit
+script:
+  - ./vendor/bin/phpunit --verbose $PHPUNIT_FLAGS
