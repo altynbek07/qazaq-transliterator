@@ -1,4 +1,4 @@
-#Qazaq Transliterator
+# Qazaq Transliterator
 
 Transliteration of the old Kazakh alphabet into a new one
 ![Qazaq Transliterator](https://tengrinews.kz/userdata/news/2017/news_315984/photo_212587.jpg)
