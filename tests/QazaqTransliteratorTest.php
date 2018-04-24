@@ -2,7 +2,7 @@
 
 use altynbek07\qazaqTransliterator\QazaqTransliterator;
 
-class QazaqTransliteratorTest extends PHPUnit_Framework_TestCase
+class QazaqTransliteratorTest extends \PHPUnit\Framework\TestCase
 {
     public function testTransliterate()
     {
