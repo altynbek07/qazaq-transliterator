@@ -1,8 +1,11 @@
 <?php
 
-use altynbek07\qazaqTransliterator\QazaqTransliterator;
+namespace Altynbek07\QazaqTransliterator\Tests;
 
-class QazaqTransliteratorTest extends \PHPUnit\Framework\TestCase
+use Altynbek07\QazaqTransliterator\QazaqTransliterator;
+use PHPUnit\Framework\TestCase;
+
+class QazaqTransliteratorTest extends TestCase
 {
     public function testTransliterate()
     {

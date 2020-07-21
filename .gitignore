@@ -1,7 +1,7 @@
-.idea
-vendor
-tests/_output/*
+build
 composer.lock
-.sass-cache
-.env
-builds
+docs
+vendor
+coverage
+.phpunit.result.cache
+.php_cs.cache

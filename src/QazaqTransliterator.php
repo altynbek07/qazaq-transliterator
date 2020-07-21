@@ -1,25 +1,26 @@
 <?php
 
-namespace altynbek07\qazaqTransliterator;
+namespace Altynbek07\QazaqTransliterator;
 
 class QazaqTransliterator
 {
     /**
-     * Транслитерация текста на новый казахский алфавит
+     * Transliteration of a string into the new Kazakh alphabet
+     *
      * @param string $text
      * @return string
      */
-    public static function transliterate($text)
+    public static function transliterate(string $text): string
     {
         return strtr($text, self::getAlphabet());
     }
 
-
     /**
-     * Новый казахский алфавит
+     * New Kazakh alphabet
+     *
      * @return array
      */
-    private static function getAlphabet()
+    public static function getAlphabet(): array
     {
         return [
             'а' => 'a',
