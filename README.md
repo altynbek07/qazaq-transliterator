@@ -26,7 +26,7 @@ use Altynbek07\QazaqTransliterator\QazaqTransliterator;
 $oldText = 'Қазақстан Республикасы — Шығыс Еуропа мен Орталық Азияда орналасқан мемлекет.';
 $newText = QazaqTransliterator::transliterate($oldText);
 
-echo $newText; // Qazaqstan Respýblıkasy — Shyǵys Eýropa men Ortalyq Azııada ornalasqan memleket.
+echo $newText; // Qazaqstan Respublikasy — Şyğys Europa men Ortalyq Aziiada ornalasqan memleket.
 ```
 
 ## Testing
